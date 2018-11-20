@@ -10,5 +10,8 @@ namespace FriendLetter.Controllers
     [Route("/goodbye")]
     public string Goodbye() { return "Goodbye friend."; }
 
+    [Route("/letter")]
+    public string Letter() { return "Our virtual postcard will go here soon!"; }
+
   }
 }
