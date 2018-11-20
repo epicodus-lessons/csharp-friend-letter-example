@@ -14,7 +14,8 @@ namespace FriendLetter.Controllers
     [Route("/")]
     public ActionResult Letter() {
       LetterVariable myLetterVariable = new LetterVariable();
-      myLetterVariable.SetRecipient("Jessica");
+      myLetterVariable.SetRecipient("Lina");
+      myLetterVariable.SetSender("John");
       return View(myLetterVariable);
     }
 
