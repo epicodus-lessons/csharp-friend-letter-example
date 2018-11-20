@@ -7,5 +7,7 @@ namespace FriendLetter.Controllers
 
     public string Hello() { return "Hello friend!"; }
 
+    public string Goodbye() { return "Goodbye friend."; }
+
   }
 }
