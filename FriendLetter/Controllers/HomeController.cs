@@ -10,6 +10,7 @@ namespace FriendLetter.Controllers
     [Route("/goodbye")]
     public string Goodbye() { return "Goodbye friend."; }
 
+    [Produces("text/html")]
     [Route("/letter")]
     public string Letter()
     {
