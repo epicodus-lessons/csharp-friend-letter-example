@@ -13,5 +13,8 @@ namespace FriendLetter.Controllers
     [Route("/")]
     public ActionResult Letter() { return View(); }
 
+    [Route("/journal")]
+    public ActionResult Journal() { return View(); }
+
   }
 }
